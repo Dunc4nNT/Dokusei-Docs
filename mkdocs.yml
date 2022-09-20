@@ -1,6 +1,13 @@
 site_name: Dokusei Documentation
+site_description: Documentation for the Dokusei bot.
+site_url: https://dunc4nnt.github.io/Dokusei-Docs/
+site_author: Dunc4nNT
+
+dev_addr: 127.0.0.1:8000
+
 copyright: Copyright &copy; 2022 Dunc4nNT
-repo_url: https://github.com/Dunc4nNT/Dokusei-Docs
+
+repo_url: https://github.com/Dunc4nNT/Dokusei-Docs/
 repo_name: Dunc4nNT/Dokusei-Docs
 edit_uri: edit/master/docs/
 
@@ -34,7 +41,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.top
-    - seasrch.suggest
+    - search.suggest
     - search.share
     - search.highlight
 
