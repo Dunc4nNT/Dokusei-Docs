@@ -1,0 +1,135 @@
+site_name: Dokusei Documentation
+copyright: Copyright &copy; 2022 Dunc4nNT
+repo_url: https://github.com/Dunc4nNT/Dokusei-Docs
+repo_name: Dunc4nNT/Dokusei-Docs
+edit_uri: edit/master/docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/icons/dokusei_notext.png
+  favicon: assets/icons/favicon.ico
+  icon:
+    repo: material/git
+    edit: material/file-document-edit-outline
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: black
+      accent: deep purple
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: grey
+      accent: deep purple
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - seasrch.suggest
+    - search.share
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.betterem:
+      smart_enable: all
+  - attr_list
+  - tables
+
+extra:
+  social:
+    - icon: material/home
+      link: https://dunc4nnt.github.io/Dokusei
+    - icon: material/view-dashboard
+      link: https://dunc4nnt.github.io/Dokusei-Dashboard
+    - icon: fontawesome/brands/github
+      link: https://github.com/Dunc4nNT
+    - icon: fontawesome/solid/globe
+      link: https://dunc4nnt.github.io/
+
+extra_css:
+  - assets/css/styles.css
+
+nav:
+  - Home:
+    - Dokusei: index.md
+    - Table of Contents: table_of_contents.md
+    - Guide: guide.md
+    - FAQ: faq.md
+    - Changelog: changelog.md
+  - Config:
+    - Bot Manager: config/bot_manager.md
+    - Prefixes: config/prefixes.md
+  - Economy:
+    - Economy: economy/economy.md
+    - Crypto: economy/crypto.md
+  - Fun:
+    - Fun: fun/fun.md
+    - Game Information: fun/game_stats.md
+    - Games: fun/games.md
+    - Image Manipulation: fun/image_manipulations.md
+    - Text Manipulation: fun/text_manipulations.md
+  - Levels:
+    - Levels: levels/levels.md
+  - Logging:
+    - Logging: logging/logging.md
+    - Welcomer: logging/welcomer.md
+  - Moderation:
+    - Automod: moderation/automod.md
+    - Moderation: moderation/moderation.md
+    - Modmail: moderation/modmail.md
+    - Reports: moderation/reports.md
+    - Verification: moderation/verification.md
+  - Music:
+    - Music: music/music.md
+    - Playlists: music/playlists.md
+  - Roles:
+    - Automatic Roles: roles/auto_roles.md
+    - Reaction Roles: roles/reaction_roles.md
+    - Roles: roles/roles.md
+    - Self Roles: roles/self_roles.md
+    - Voice Roles: roles/voice_roles.md
+  - Tags:
+    - Tags: tags/tags.md
+    - Advanced Use: tags/advanced_use.md
+    - Examples: tags/examples.md
+  - Twitch Bot:
+    - Developer: twitch_bot/developer.md
+    - Informatic: twitch_bot/info.md
+    - Management: twitch_bot/manager.md
+    - Moderation: twitch_bot/moderator.md
+    - Tags: twitch_bot/tags.md
+    - Utilities: twitch_bot/utility.md
+  - User Cards:
+    - Server Cards: user_cards/server_cards.md
+    - User Cards: user_cards/user_cards.md
+  - Utilities:
+    - Developer: utilities/developer.md
+    - Informatic: utilities/info.md
+    - Polls: utilities/polls.md
+    - Reminders: utilities/reminders.md
+    - Starboard: utilities/starboard.md
+    - Statistics: utilities/stats.md
+    - Suggestions: utilities/suggestions.md
+    - Tagwords: utilities/tagwords.md
+    - Timed Messages: utilities/timed_messages.md
+    - To Do: utilities/todo.md
+    - Triggers: utilities/triggers.md
+    - Twitch: utilities/twitch.md
+    - Utilities: utilities/utility.md
+    - Voice Manager: utilities/voice_manager.md
