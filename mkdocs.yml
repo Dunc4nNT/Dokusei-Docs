@@ -38,6 +38,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
+    - navigation.sections
     - navigation.instant
     - navigation.tabs
     - navigation.top
@@ -61,7 +62,7 @@ markdown_extensions:
 extra:
   social:
     - icon: material/home
-      link: https://dunc4nnt.github.io/Dokusei
+      link: https://dunc4nnt.github.io/Dokusei-Website
     - icon: material/view-dashboard
       link: https://dunc4nnt.github.io/Dokusei-Dashboard
     - icon: fontawesome/brands/github
@@ -82,17 +83,20 @@ nav:
   - Config:
     - Bot Manager: config/bot_manager.md
     - Prefixes: config/prefixes.md
-  - Economy:
-    - Economy: economy/economy.md
-    - Crypto: economy/crypto.md
+  - Economy & Levels:
+    - Economy: economy_and_levels/economy.md
+    - Crypto: economy_and_levels/crypto.md
+    - Levels: economy_and_levels/levels.md
+    - User Cards: economy_and_levels/user_cards.md
   - Fun:
     - Fun: fun/fun.md
     - Game Information: fun/game_stats.md
     - Games: fun/games.md
     - Image Manipulation: fun/image_manipulations.md
     - Text Manipulation: fun/text_manipulations.md
-  - Levels:
-    - Levels: levels/levels.md
+  - Informatic:
+    - Informatic: informatic/informatic.md
+    - Statistics: informatic/statistics.md
   - Logging:
     - Logging: logging/logging.md
     - Welcomer: logging/welcomer.md
@@ -115,28 +119,20 @@ nav:
     - Tags: tags/tags.md
     - Advanced Use: tags/advanced_use.md
     - Examples: tags/examples.md
-  - Twitch Bot:
-    - Developer: twitch_bot/developer.md
-    - Informatic: twitch_bot/info.md
-    - Management: twitch_bot/manager.md
-    - Moderation: twitch_bot/moderator.md
-    - Tags: twitch_bot/tags.md
-    - Utilities: twitch_bot/utility.md
-  - User Cards:
-    - Server Cards: user_cards/server_cards.md
-    - User Cards: user_cards/user_cards.md
   - Utilities:
-    - Developer: utilities/developer.md
-    - Informatic: utilities/info.md
-    - Polls: utilities/polls.md
-    - Reminders: utilities/reminders.md
-    - Starboard: utilities/starboard.md
-    - Statistics: utilities/stats.md
-    - Suggestions: utilities/suggestions.md
-    - Tagwords: utilities/tagwords.md
-    - Timed Messages: utilities/timed_messages.md
     - To Do: utilities/todo.md
-    - Triggers: utilities/triggers.md
-    - Twitch: utilities/twitch.md
     - Utilities: utilities/utility.md
-    - Voice Manager: utilities/voice_manager.md
+    - Reminders & Notifications:
+      - Reminders: utilities/reminders_and_notifications/reminders.md
+      - Tagwords: utilities/reminders_and_notifications/tagwords.md
+      - Timed Messages: utilities/reminders_and_notifications/timed_messages.md
+      - Triggers: utilities/reminders_and_notifications/triggers.md
+      - Twitch: utilities/reminders_and_notifications/twitch.md
+    - User Feedback:
+      - Polls: utilities/user_feedback/polls.md
+      - Starboard: utilities/user_feedback/starboard.md
+      - Suggestions: utilities/user_feedback/suggestions.md
+  - Voice:
+    - Voice Manager: voice/voice_manager.md
+  - Developer:
+    - Developer: developer/developer.md
