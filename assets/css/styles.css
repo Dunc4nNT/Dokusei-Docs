@@ -1,0 +1,9 @@
+table {
+  background-color: var(--md-primary-fg-color) !important;
+  border: none !important;
+  box-shadow: var(--md-shadow-z1);
+}
+
+tbody {
+  background-color: var(--md-default-bg-color) !important;
+}
